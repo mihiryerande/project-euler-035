@@ -11,9 +11,10 @@
 #     How many circular primes are there below one million?
 
 from math import floor, sqrt
+from typing import List
 
 
-def main(n):
+def main(n: int) -> List[int]:
     """
     Returns an ordered list of all 'circular' primes below `n`.
     Note all rotations will be present in the list,
